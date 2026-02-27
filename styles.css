@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-body {
+  background-color: #e2cfb6;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.h1-main {
+  font-size: 32px;
+  font-weight: 400;
+  color: #f94a72;
+  margin-bottom: 50px;
+}
+.ol-main li {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.ol-main li a {
+  font: 1em sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #133e30;
+  transition: color 0.4s ease;
+}
+.ol-main li a:hover {
+  color: #2020aa;
+  text-decoration: underline;
+}
+
+/* for the friedrice file */
+/* .body {
+  border: 2px solid red;
+} */
