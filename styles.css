@@ -95,3 +95,8 @@ img {
 .h3-steps {
   margin: 20px 0px;
 }
+
+.ul-recipe li,
+.ol-recipe li {
+  margin-bottom: 10px;
+}
